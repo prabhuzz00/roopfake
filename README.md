@@ -1,5 +1,5 @@
 # roopfake
-Ai Model for face swap and enhance
+Ai Model for face swap and enhance *(The roopfake without restrictions)*
 Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
 
 ![demo](demo.gif)
@@ -14,9 +14,9 @@ Users of this software are expected to use this software responsibly while abidi
 
 **Issues regarding installation will be closed from now on, we cannot handle the amount of requests.**
 
-- **Basic:** It is more likely to work on your computer but it will also be very slow. You can follow instructions for the basic install [here](https://github.com/s0md3v/roop/wiki/1.-Installation).
+- **Basic:** It is more likely to work on your computer but it will also be very slow. You can follow instructions for the basic install [here](https://github.com/prabhuzz00/roopfake/wiki/1.-Installation).
 
-- **Acceleration:** If you have a good GPU and are ready for solving any software issues you may face, you can enable GPU which is wayyy faster. To do this, first follow the basic install instructions given above and then follow GPU-specific instructions [here](https://github.com/s0md3v/roop/wiki/2.-Acceleration).
+- **Acceleration:** If you have a good GPU and are ready for solving any software issues you may face, you can enable GPU which is wayyy faster. To do this, first follow the basic install instructions given above and then follow GPU-specific instructions [here](https://github.com/prabhuzz00/roopfake/wiki/2.-Acceleration).
 
 ## How do I use it?
 > Note: When you run this program for the first time, it will download some models ~300MB in size.
@@ -26,7 +26,7 @@ Executing `python run.py` command will launch this window:
 
 Choose a face (image with desired face) and the target image/video (image/video in which you want to replace the face) and click on `Start`. Open file explorer and navigate to the directory you select your output to be in. You will find a directory named `<video_title>` where you can see the frames being swapped in realtime. Once the processing is done, it will create the output file. That's it.
 
-Additional command line arguments are given below. To learn out what they do, check [this guide](https://github.com/s0md3v/roop/wiki/Advanced-Options).
+Additional command line arguments are given below. To learn out what they do, check [this guide](https://github.com/prabhuzz00/roopfake/wiki/Advanced-Options).
 
 ```
 options:
