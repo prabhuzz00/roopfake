@@ -26,7 +26,7 @@ Executing `python run.py` command will launch this window:
 
 Choose a face (image with desired face) and the target image/video (image/video in which you want to replace the face) and click on `Start`. Open file explorer and navigate to the directory you select your output to be in. You will find a directory named `<video_title>` where you can see the frames being swapped in realtime. Once the processing is done, it will create the output file. That's it.
 
-Additional command line arguments are given below. To learn out what they do, check [this guide](https://github.com/prabhuzz00/roopfake/wiki/Advanced-Options).
+Additional command line arguments are given below. To learn out what they do, check [this guide](https://github.com/prabhuzz00/roopfake/wiki/3.-Advanced-Options).
 
 ```
 options:
