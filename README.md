@@ -2,7 +2,7 @@
 Ai Model for face swap and enhance
 Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
 
-
+![demo](demo.gif)
 ## Disclaimer
 This software is meant to be a productive contribution to the rapidly growing AI-generated media industry. It will help artists with tasks such as animating a custom character or using the character as a model for clothing etc.
 
@@ -54,3 +54,4 @@ Looking for a CLI mode? Using the -s/--source argument will make the run program
 - [ffmpeg](https://ffmpeg.org/): for making video related operations easy
 - [deepinsight](https://github.com/deepinsight): for their [insightface](https://github.com/deepinsight/insightface) project which provided a well-made library and models.
 - and all developers behind libraries used in this project.
+
